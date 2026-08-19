@@ -1,0 +1,22 @@
+name: revdeflate-c-opt-sym-dynamic
+type: revdeflate
+description: >-
+  Reverse-engineer an encoder-only file compressor and write a decoder
+  that recovers six challenges (L1-L6). Its output resembles a common format but
+  the codec is non-standard, so stock tools do not decode it.
+source: RevDeflate
+binary:
+  file: binary
+  format: elf64
+  arch: x86_64
+language: c
+variant: opt-sym-dynamic
+evaluation: revdeflate_score
+tools:
+  pyghidra: tools/pyghidra
+  gdb: tools/gdb
+  radare2: tools/radare2
+  angr: tools/angr
+  binutils: tools/binutils
+  strace: tools/strace
+  ltrace: tools/ltrace

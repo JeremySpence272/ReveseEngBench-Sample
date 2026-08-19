@@ -1,0 +1,10 @@
+{
+  "name": "gdb",
+  "packages": {
+    "apt": ["gdb", "git"]
+  },
+  "mcp": {
+    "command": "node",
+    "args": ["/opt/mcp-gdb/build/index.js"]
+  }
+}

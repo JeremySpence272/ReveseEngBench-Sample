@@ -1,0 +1,7 @@
+{
+  "name": "ltrace",
+  "notes": "Trace library/dynamic-function calls of a running program. Run from bash, e.g. `ltrace ./prog`.",
+  "packages": {
+    "apt": ["ltrace"]
+  }
+}

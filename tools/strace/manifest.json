@@ -1,0 +1,7 @@
+{
+  "name": "strace",
+  "notes": "Trace system calls of a running program. Run from bash, e.g. `strace -f ./prog`.",
+  "packages": {
+    "apt": ["strace"]
+  }
+}

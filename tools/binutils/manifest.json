@@ -1,0 +1,7 @@
+{
+  "name": "binutils",
+  "notes": "GNU binutils CLI: objdump, readelf, nm, strings, c++filt, etc. Run from bash.",
+  "packages": {
+    "apt": ["binutils"]
+  }
+}

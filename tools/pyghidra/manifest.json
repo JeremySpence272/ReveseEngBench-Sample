@@ -1,0 +1,8 @@
+{
+  "name": "pyghidra",
+  "notes": "Python library for Ghidra API access. Use `import pyghidra` in Python scripts.",
+  "packages": {
+    "apt": ["openjdk-21-jdk-headless", "curl", "unzip"],
+    "pip": ["pyghidra"]
+  }
+}

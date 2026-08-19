@@ -1,0 +1,50 @@
+{
+  "master_seed": "0xdef1a7e0d0c0ded1",
+  "scale": "full",
+  "levels": [
+    {
+      "level": 1,
+      "original_kind": "file",
+      "original_name": "L1_multisection.dat",
+      "original_sha256": "160af10b3dedab446da0fa84fb8d38c04b0e25e897a3e3a0d2aa973403e57c74",
+      "num_entries": 1,
+      "original_bytes": 1208896
+    },
+    {
+      "level": 2,
+      "original_kind": "file",
+      "original_name": "L2_multisection.dat",
+      "original_sha256": "dfce4f95f6abed419f78cd640f50f5498ae7c3d3f572eba9a659d1b4ab5f778a",
+      "num_entries": 1,
+      "original_bytes": 2208894
+    },
+    {
+      "level": 3,
+      "original_kind": "dir",
+      "tree_hash": "04c4105bea56ec4852dff3ee58f093525e22a09413696b9f6f2cd4767b7deed5",
+      "num_entries": 96,
+      "original_bytes": 3091263
+    },
+    {
+      "level": 4,
+      "original_kind": "dir",
+      "tree_hash": "e9ede4b317e4d5efb6c3ab8931c6bf869c0c1e9cf87199a7bbafe2103c382540",
+      "num_entries": 185,
+      "original_bytes": 5133499
+    },
+    {
+      "level": 5,
+      "original_kind": "dir",
+      "tree_hash": "0ccc8f53b29340b1cddbc88a8ffba36ed4b4cee4b5a510edf1e5672eeb658c1f",
+      "num_entries": 375,
+      "original_bytes": 7092281
+    },
+    {
+      "level": 6,
+      "original_kind": "dir",
+      "tree_hash": "86dfeb0c02240e68045542002807a95a150be666c23573d0f65244fef9f4a0d9",
+      "num_entries": 583,
+      "original_bytes": 10183719
+    }
+  ]
+}

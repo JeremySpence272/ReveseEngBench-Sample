@@ -1,0 +1,6 @@
+{
+  "name": "angr",
+  "packages": {
+    "pip": ["angr"]
+  }
+}

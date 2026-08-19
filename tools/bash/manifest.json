@@ -1,0 +1,6 @@
+{
+  "name": "bash",
+  "packages": {
+    "apt": ["binutils", "file", "xxd"]
+  }
+}

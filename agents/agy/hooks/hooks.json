@@ -1,0 +1,16 @@
+{
+  "harness-step-budget": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /opt/agy_hooks/step_budget_hook.py",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

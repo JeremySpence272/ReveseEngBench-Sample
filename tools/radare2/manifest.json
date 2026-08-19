@@ -1,0 +1,10 @@
+{
+  "name": "radare2",
+  "packages": {
+    "apt": ["git", "curl", "build-essential", "pkg-config"]
+  },
+  "mcp": {
+    "command": "r2pm",
+    "args": ["-r", "r2mcp"]
+  }
+}
